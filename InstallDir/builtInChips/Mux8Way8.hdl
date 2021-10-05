@@ -1,0 +1,23 @@
+// This file is part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken, 
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: tools/builtIn/Mux8Way16.hdl
+
+/**
+ * 8-way 8-bit multiplexor.  
+ * out = a -- if sel=000
+ *       b -- if sel=001
+ *       ...
+ *       h -- if sel=111
+ */
+ 
+CHIP Mux8Way8 {
+
+    IN  a[8], b[8], c[8], d[8],
+        e[8], f[8], g[8], h[8],
+        sel[3];
+
+    OUT out[8];
+
+    BUILTIN Mux8Way8;
+}

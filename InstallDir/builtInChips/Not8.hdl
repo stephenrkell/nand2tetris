@@ -1,0 +1,16 @@
+// This file is BASED ON part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken, 
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: tools/builtIn/Not16.hdl
+
+/**
+ * 8-bit negation gate: for i=0..7 out[i] = not in[i]
+ */
+
+CHIP Not8 {
+
+    IN  in[8];
+    OUT out[8];
+
+    BUILTIN Not8;
+}

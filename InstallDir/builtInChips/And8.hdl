@@ -1,0 +1,17 @@
+// This file is BASED ON part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken, 
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: tools/builtIn/And16.hdl
+
+/**
+ * 8-bit and gate.  For i=0..7 out[i] = a[i] and b[i]
+ */
+
+CHIP And8 {
+
+    IN  a[8], b[8];
+    OUT out[8];
+
+    BUILTIN And;
+}
+

@@ -1,0 +1,16 @@
+// This file is BASED ON part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken,
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: tools/builtIn/Or8.hdl
+
+/**
+ * 8-bit Or gate.  For i=0..7 out[i] = a[i] or b[i]
+ */
+
+CHIP Or8 {
+
+    IN  a[8], b[8];
+    OUT out[8];
+
+    BUILTIN Or;
+}
