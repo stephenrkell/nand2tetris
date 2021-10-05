@@ -25,7 +25,7 @@ import SimulatorsGUI.*;
 import java.util.Vector;
 import javax.swing.*;
 import Hack.Gates.*;
-
+import java.lang.String;
 
 /**
  * The Hardware Simulator.

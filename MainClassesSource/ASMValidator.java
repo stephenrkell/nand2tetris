@@ -26,7 +26,7 @@ import java.util.TreeSet;
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
-
+import java.lang.String;
 
 class MyHackAssembler extends HackAssembler
 {
