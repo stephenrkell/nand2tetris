@@ -29,7 +29,7 @@ public class HardwareSimulatorMain
   /**
    * The command line Hardware Simulator program.
    */
-  public static void main(String[] args) {
+  public static void main(java.lang.String[] args) {
         if (args.length > 1)
             System.err.println("Usage: java HardwareSimulatorMain [script name]");
         else if (args.length == 0) {

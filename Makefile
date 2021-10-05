@@ -78,3 +78,7 @@ mainclasses-classes.stamp: $(shell find MainClassesSource -name '*.java')
 	$(JAVAC) $(JAVACFLAGS) -cp :$(call classpath,MainClassesSource): -source 1.3 -target 1.3 $+ && \
 	cp -p MainClassesSource/*.class InstallDir/bin/classes/ && \
 	touch $@
+
+.PHONY: clean
+clean:
+	find -name '*.class' -o -name '*.jar' -o -name '*.stamp' | xargs rm -f

@@ -29,7 +29,7 @@ public class VMEmulatorMain
   /**
    * The command line VM Emulator program.
    */
-  public static void main(String[] args) {
+  public static void main(java.lang.String[] args) {
         if (args.length > 1)
             System.err.println("Usage: java CPUEmulatorMain [script name]");
         else if (args.length == 0) {

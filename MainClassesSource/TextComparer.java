@@ -16,6 +16,7 @@
  ********************************************************************************/
 
 import java.io.*;
+import java.lang.String;
 
 /**
  * A text file comparer. Receives two text file names as command line arguments
