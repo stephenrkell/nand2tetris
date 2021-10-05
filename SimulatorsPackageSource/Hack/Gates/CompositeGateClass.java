@@ -51,6 +51,7 @@ public class CompositeGateClass extends GateClass {
 
     // The list of contained GateClasses (parts)
     private Vector partsList;
+    public Vector getPartsList() { return partsList; }
 
     // Array of indice of parts (taken from the parts vector), in a topological order.
     private int[] partsOrder;

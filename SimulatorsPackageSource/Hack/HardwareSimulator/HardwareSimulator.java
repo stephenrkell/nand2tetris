@@ -63,6 +63,7 @@ public class HardwareSimulator extends HackSimulator
 
     // The simulated gate.
     private Gate gate;
+    public Gate getGate() { return gate; }
 
     // The Pins lists
     private Pins inputPins, outputPins, internalPins;
